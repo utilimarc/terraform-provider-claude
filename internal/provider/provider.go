@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/gszzzzzz/terraform-provider-claude/internal/client"
+	"github.com/utilimarc/terraform-provider-claude/internal/client"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/provider"

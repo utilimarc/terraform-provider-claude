@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gszzzzzz/terraform-provider-claude/internal/client"
+	"github.com/utilimarc/terraform-provider-claude/internal/client"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"

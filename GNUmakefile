@@ -2,7 +2,7 @@ default: build
 
 BINARY=terraform-provider-claude
 HOSTNAME=registry.terraform.io
-NAMESPACE=gszzzzzz
+NAMESPACE=utilimarc
 NAME=claude
 VERSION=0.1.0
 OS_ARCH=$(shell go env GOOS)_$(shell go env GOARCH)

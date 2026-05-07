@@ -1,4 +1,4 @@
-module github.com/gszzzzzz/terraform-provider-claude
+module github.com/utilimarc/terraform-provider-claude
 
 go 1.24.0
 

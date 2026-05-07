@@ -3,7 +3,7 @@ package provider
 import (
 	"testing"
 
-	"github.com/gszzzzzz/terraform-provider-claude/internal/client"
+	"github.com/utilimarc/terraform-provider-claude/internal/client"
 )
 
 func TestFlattenUser(t *testing.T) {

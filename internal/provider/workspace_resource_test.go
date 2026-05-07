@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/utilimarc/terraform-provider-claude/internal/client"
 	"github.com/hashicorp/terraform-plugin-framework/types"
+	"github.com/utilimarc/terraform-provider-claude/internal/client"
 )
 
 func TestParseAllowedInferenceGeos(t *testing.T) {

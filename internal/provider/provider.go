@@ -4,13 +4,13 @@ import (
 	"context"
 	"os"
 
-	"github.com/utilimarc/terraform-provider-claude/internal/client"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
+	"github.com/utilimarc/terraform-provider-claude/internal/client"
 )
 
 var _ provider.Provider = &claudeProvider{}

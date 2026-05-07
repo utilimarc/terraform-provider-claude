@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/utilimarc/terraform-provider-claude/internal/provider"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
+	"github.com/utilimarc/terraform-provider-claude/internal/provider"
 )
 
 var version = "dev"
